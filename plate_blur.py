@@ -15,7 +15,7 @@ def blur_plate(img):
     return plate_img
 
 
-plate = cv2.CascadeClassifier('DATA/haarcascades/haarcascade_russian_plate_number.xml')
+plate = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
 
 img = cv2.imread('car_plate.jpg')
 
